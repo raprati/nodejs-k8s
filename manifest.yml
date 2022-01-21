@@ -15,8 +15,8 @@ spec:
         app: webapp
     spec:
       containers:
-      - image: raprati/nodejs:version_0
-        name: nodejs
+      - image: raprati/nodej:version_0
+        name: nodej
         ports:
         - containerPort: 3080
 
